@@ -87,8 +87,11 @@ const allNumbers = numbers1.concat(numbers2)
 
 document.write("Los arrays que concatena son: "+allNumbers+ ("<br>"))
 
+
 //En un restaurante se reciben pedidos de comida a domicilio. 
 //Vamos a escribir una función procesarPedido que recibe un pedido, que es un array de platos. Lo que debemos hacer es:
+
+document.write(("<h3> Ejercicio </h3>"))
 
 function procesarPedido(pedidos) {
 
@@ -99,7 +102,5 @@ pedido.push ("cliente")
 return pedido
 }
 
-const bedida = ("Agua", "Chocolate", "Jugo", "Gaseosa")
-
-const allPedido = nombre.concat(bedida)
-document.write("Los arrays del pedido son: "+allpedido+ ("<br>"))
+const pedidos = ['Carlos', 'café', 'bocadillo', 'patatas', 'postre']
+document.write("El array de pedido es: "+procesarPedido("pedidos")+("<br>"))
